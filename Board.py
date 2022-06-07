@@ -1,6 +1,6 @@
 import random
 class Board():
-    """Represent a game board for the game.
+    """Represent a game board.
 
        Public methods: __init__, get_num_rows, get_num_cols,
        add_pawn, delete_pawn, take_turn, pawn_at, __str__
