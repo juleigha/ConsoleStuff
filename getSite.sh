@@ -1,9 +1,11 @@
+# test for pushing updates and checking for changes
+
 contents="contents.txt"
 tempFile="temp.txt"
 ftpFile="tmp.ftp"
 > $tempFile
 > $ftpFile
-cat "boom.ftp" > $ftpFile
+cat "test.ftp" > $ftpFile
 upload="false"
 for localFolder in $( ls -d *Story/episode*);do
   read -r -u 3 chapterName
