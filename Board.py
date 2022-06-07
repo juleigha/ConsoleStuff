@@ -1,3 +1,5 @@
+# moves handled with random math; Focus being scalable board object 
+
 import random
 class Board():
     """Represent a game board.
